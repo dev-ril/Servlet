@@ -1,0 +1,92 @@
+<web-app>
+	<servlet>
+			<servlet-name>myservlet</servlet-name>
+			<servlet-class>servletclass.WelcomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myservlet</servlet-name>
+		<url-pattern>/mywelcomeservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+			<servlet-name>historyservlet</servlet-name>
+			<servlet-class>servletclass.History</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>historyservlet</servlet-name>
+		<url-pattern>/historyservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+			<servlet-name>gethistoryservlet</servlet-name>
+			<servlet-class>servletclass.GetHistory</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gethistoryservlet</servlet-name>
+		<url-pattern>/gethistory</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+			<servlet-name>clearhistoryservlet</servlet-name>
+			<servlet-class>servletclass.ClearHistory</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clearhistoryservlet</servlet-name>
+		<url-pattern>/clearhistory</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+			<servlet-name>registerservlet</servlet-name>
+			<servlet-class>servletclass.Register</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registerservlet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+			<servlet-name>loginservlet</servlet-name>
+			<servlet-class>servletclass.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginservlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+			<servlet-name>loginvalidateservlet</servlet-name>
+			<servlet-class>servletclass.LoginValidate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginvalidateservlet</servlet-name>
+		<url-pattern>/loginvalidate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+			<servlet-name>logoutservlet</servlet-name>
+			<servlet-class>servletclass.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logoutservlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+			<servlet-name>pageservlet</servlet-name>
+			<servlet-class>servletclass.Page</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pageservlet</servlet-name>
+		<url-pattern>/page</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+			<servlet-name>pagesizeservlet</servlet-name>
+			<servlet-class>servletclass.Pagesize</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pagesizeservlet</servlet-name>
+		<url-pattern>/pagesize</url-pattern>
+	</servlet-mapping>
+	
+</web-app>	
